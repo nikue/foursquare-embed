@@ -182,7 +182,8 @@
                             s = t.page.user.homeCity
                         }
                         gid("image").src = r,
-                        gid("venueName").textContent = t.name;
+                        gid("venueName").textContent = t.name,
+						gid("venueRating").textContent = t.rating;
                         var d = document.createElement("div");
                         for (a = 0; a < t.categories.length; a++) {
                             var l = t.categories[a]
